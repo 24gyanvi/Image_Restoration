@@ -1,9 +1,9 @@
 # Image_Restoration
 Image restoration is one of the most important areas in imaging science. Model-based optimization methods and discriminative learning methods have been the two dominant strategies for solving various inverse problems in low-level vision. This paper aims to train different set of images on different models for denoising and deblurring. For denoising salt pepper and Gaussian Noise is introduced in the datasets, and for deblurring Gaussian Blur is used to train the model using CNN(Convolutional Neural Network) and Autoencoders on different datasets. This papers uses the metrics Accuracy, PSNR and SSIM. Experimental results show that Autoencoders in case of salt pepper denoising,  in case of gaussian noise and CNN(Convolutional Neural Network) in case of Gaussian Deblurring gives better results.
-<br/>
+<br/><hr>
 # Dataset
 The link of the dataset used for denoising and deblurring is: https://drive.google.com/drive/folders/1rBxspGhADY_40jWQ5JZ9jtljWF_zryXd?usp=sharing
-<br/>
+<br/><hr>
 # Conclusion
 After running our dataset through different models, we saw that only few models shows the best result in each section. This section contains the final model for Denoising and Deblurring respectively.
 <br/>
