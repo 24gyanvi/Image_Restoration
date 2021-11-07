@@ -7,18 +7,19 @@ The link of the dataset used for denoising and deblurring is: https://drive.goog
 # Conclusion
 After running our dataset through different models, we saw that only few models shows the best result in each section. This section contains the final model for Denoising and Deblurring respectively.
 <br/>
-We performed Denoising on two different types of noises, Salt & Pepper and Gaussian Noise.
-## Salt and Pepper Noise
+We performed Denoising on two different types of noises, Salt & Pepper and Gaussian Noise and Deblurring on Gaussian Blur.
+## Denoising
+### Salt and Pepper Noise
 For Salt and Pepper Noise, Autoencoders turned out to be the best fit. The dataset used contains 51 images. This dataset was created by inducing salt-pepper noise randomly all over. 
 PSNR of 33.14 in case of Autoencoders was quite satisfactory as compared to the other models, and SSIM of 0.926 was also good. 
-We got the desirable results of denoising salt and pepper noise by the Autoencoders model. The results for the same are shown in the figure 1.
+We got the desirable results of denoising Salt and Pepper Noise by the Autoencoders Model. The results for the same are shown in the figure 1.
 <br/>
 ![S P_Acc (1)](https://user-images.githubusercontent.com/88244007/140639361-f526c75d-072c-4d0a-8915-d814417f748f.png)
 ![download](https://user-images.githubusercontent.com/88244007/140639375-8e2e96a5-73fc-4b80-9b41-cbceff0826ff.png)
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 1:  Salt and Pepper Noise on Autoencoders
 <br/>
-The above graphs shows the Accuracy vs Epoch and Loss vs Epoch respectively for the autoencoders models. 
+The above graphs shows the Accuracy vs Epoch and Loss vs Epoch respectively for the Autoencoders Models. 
 Below are the images before and after running the model. One can see the different between the noisy image, denoised image and the ground truth respectively.
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -35,5 +36,12 @@ Below are the images before and after running the model. One can see the differe
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![set 1 ground truthr](https://user-images.githubusercontent.com/88244007/140646117-08337342-b573-43bc-97ce-263771b10844.png)
 
-Figure 2:  Noisy image, denoised image, ground truth respectively for the Autoencoders model of salt and pepper noise
+Figure 2:  Noisy Image, Denoised Image, Ground Truth respectively for the Autoencoders Model of Salt and Pepper Noise
 <br/>
+
+### Gaussian Noise
+...
+
+## Deblurring
+### Gaussian Blur
+For Gaussian Blur, CNN(Convolutional Neural Network) Model turned out to be the best fit. The dataset used contains 51 images and was created by inducing Gaussian Blur randomly all over. Validation PSNR of 34.73 and Training PSNR of 35.57 in case of CNN(Convolutional Neural Network) Model was quite satisfactory as compared to the other models. Hence, as we got fairly satisfactory results from our CNN(Convolutional Neural Network) Model, it is our desired Model for Gaussian Blur Deblurring. The results for the same are shown in the figure given below.
