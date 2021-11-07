@@ -40,8 +40,25 @@ Figure 2:  Noisy Image, Denoised Image, Ground Truth respectively for the Autoen
 <br/>
 
 ### Gaussian Noise
-...
+...content<br>
+...figure-3<br>
+...figure-4<br>
+<hr>
 
 ## Deblurring
 ### Gaussian Blur
-For Gaussian Blur, CNN(Convolutional Neural Network) Model turned out to be the best fit. The dataset used contains 51 images and was created by inducing Gaussian Blur randomly all over. Validation PSNR of 34.73 and Training PSNR of 35.57 in case of CNN(Convolutional Neural Network) Model was quite satisfactory as compared to the other models. Hence, as we got fairly satisfactory results from our CNN(Convolutional Neural Network) Model, it is our desired Model for Gaussian Blur Deblurring. The results for the same are shown in the figure given below.
+For Gaussian Blur, CNN(Convolutional Neural Network) Model turned out to be the best fit. The dataset used contains 51 images and was created by inducing Gaussian Blur randomly all over. Validation PSNR of 34.73 and Training PSNR of 35.57 in case of CNN(Convolutional Neural Network) Model was quite satisfactory as compared to the other models. Hence, as we got fairly satisfactory results from our CNN(Convolutional Neural Network) Model, it is our desired Model for Gaussian Blur Deblurring. The results for the same are shown in the figure given below.<br>
+<img width="450" alt="LOSS" src="https://user-images.githubusercontent.com/79861528/140653417-8ca8d847-0714-4ee1-9b91-b1af94a4df10.png">
+<img width="442" alt="PSNR" src="https://user-images.githubusercontent.com/79861528/140653454-0fec7508-39a2-4ddc-8a67-0c7469f8307e.png"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 3:  Gaussian Deblurring using CNN Model<br><br>
+The above graphs show the ’Loss vs Epochs’ and ’PSNR vs Epochs’ respectively for CNN(Convolutional Neural Network) Model.<br><br>
+<p align="center">
+<img width="720" align="center" alt="Screen Shot 2021-11-07 at 8 41 05 PM" src="https://user-images.githubusercontent.com/79861528/140653728-f77ecf3b-453a-4ccc-ad67-3f96b18856cd.png"><br>
+</p>
+<p align="center">
+<img width="722" align="center" alt="AEP5" src="https://user-images.githubusercontent.com/79861528/140653808-5b3763b4-5a84-40ab-894c-24c5b7b45ec2.png"><br>
+</p>
+Figure 4:  Input(Blurred), Ground Truth and Predicted(Deblurred) images respectively for the CNN Model for Gaussian Blur.
+<br><br>
+
+Above are the images of the Input(Blurred), Ground Truth and Predicted(Deblurred) images using the CNN model for Gaussian Deblurring of the images.
