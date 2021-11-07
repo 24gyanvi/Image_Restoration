@@ -43,7 +43,7 @@ Figure 2:  Noisy Image, Denoised Image, Ground Truth respectively for the Autoen
 ...content<br>
 ...figure-3<br>
 ...figure-4<br>
-<hr>
+<br/>
 
 ## Deblurring
 ### Gaussian Blur
