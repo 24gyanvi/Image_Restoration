@@ -17,3 +17,13 @@ We got the desirable results of denoising salt and pepper noise by the Autoencod
 ![download](https://user-images.githubusercontent.com/88244007/140639375-8e2e96a5-73fc-4b80-9b41-cbceff0826ff.png)
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 1:  Salt and Pepper Noise on Autoencoders
+<br/>
+The above graphs shows the Accuracy vs Epoch and Loss vs Epoch respectively for the autoencoders models. 
+Below are the images before and after running the model. One can see the different between the noisy image, denoised image and the ground truth respectively.
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![set3 n](https://user-images.githubusercontent.com/88244007/140645000-66dad885-b48b-4e53-a1e8-431699d177bd.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![set3 d](https://user-images.githubusercontent.com/88244007/140645010-d918c397-52f5-4559-b859-ab8ee11e33f5.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![set3 g](https://user-images.githubusercontent.com/88244007/140645040-24e5c4c0-3022-4a6f-94f6-bb53b884f82f.png)
