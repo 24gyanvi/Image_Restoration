@@ -27,3 +27,13 @@ Below are the images before and after running the model. One can see the differe
 ![set3 d](https://user-images.githubusercontent.com/88244007/140645010-d918c397-52f5-4559-b859-ab8ee11e33f5.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![set3 g](https://user-images.githubusercontent.com/88244007/140645040-24e5c4c0-3022-4a6f-94f6-bb53b884f82f.png)
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![set1 noisy (2)](https://user-images.githubusercontent.com/88244007/140645769-07e7b961-a657-4244-b641-666dc340bef2.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![set1 predictr](https://user-images.githubusercontent.com/88244007/140646105-bc5a36dc-d927-4ffc-9ce1-af6ccc47a2d3.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![set 1 ground truthr](https://user-images.githubusercontent.com/88244007/140646117-08337342-b573-43bc-97ce-263771b10844.png)
+
+Figure 2:  Noisy image, denoised image, ground truth respectively for the Autoencoders model of salt and pepper noise
+<br/>
