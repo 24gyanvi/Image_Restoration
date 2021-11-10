@@ -40,10 +40,23 @@ Figure 2:  Noisy Image, Denoised Image, Ground Truth respectively for the Autoen
 <br/>
 
 ### Gaussian Noise
-...content<br>
-...figure-3<br>
-...figure-4<br>
+For Gaussian Noise, data set of 51 images was used and was run on two different models Convolutional Autoencoders and Convolutional Neural Networks. Both the models were run on the same dataset with the same noise for 100 epochs. The loss function giving the best results was mean squared error.
+For the gaussian noise convolutional neural networks model was finalised since it gave the best result. The metric finalised in this model was SSIM. The SSIM values for the noisy and predicted image came out to be 0.19 and 0.636 respectively. The results for the same are shown in the figure 3.<br>
+<p align="center">
+<img width="720" align="center" alt="Screenshot 2021-11-10 at 2 06 13 PM" src="https://user-images.githubusercontent.com/89207778/141078771-51ebe23b-0a41-42ff-985c-40262690b110.png"><br>
+<br>Figure 3:  Gaussian Noise on CNN</br>
+</p>
+The above graphs shows the Accuracy vs Epoch and Loss vs Epoch respectively for the CNN(Convolutional Neural Network) Model.<br><br> 
+
+<p align="center">
+<img width="720" align="center" alt="Screenshot 2021-11-10 at 2 06 34 PM" src="https://user-images.githubusercontent.com/89207778/141078823-31380f71-ca2a-484b-a5ad-f14e8826a3a7.png"><br>
+<img width="720" align="center" alt="Screenshot 2021-11-10 at 2 06 57 PM" src="https://user-images.githubusercontent.com/89207778/141078896-41efe7a3-e335-420e-a192-ce6c1d11ab89.png"><br>
+Figure 4 : Noisy, Ground Truth and Predicted(Denoised) images respectively for the CNN Model for Gaussian Noise.
+</p>
 <br/>
+
+Above are the images of the Noisy, Ground Truth and Predicted(Denoised) images using the CNN model for Gaussian Denoising of the images.
+
 
 ## Deblurring
 ### Gaussian Blur
