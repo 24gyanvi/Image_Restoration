@@ -66,10 +66,14 @@ For Gaussian Blur, CNN(Convolutional Neural Network) Model turned out to be the 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure 5:  Gaussian Deblurring using CNN Model<br><br>
 The above graphs show the ’Loss vs Epochs’ and ’PSNR vs Epochs’ respectively for CNN(Convolutional Neural Network) Model.<br><br>
 <p align="center">
-<img width="720" align="center" alt="Screen Shot 2021-11-07 at 8 41 05 PM" src="https://user-images.githubusercontent.com/79861528/140653728-f77ecf3b-453a-4ccc-ad67-3f96b18856cd.png"><br>
+<!-- <img width="720" align="center" alt="Screen Shot 2021-11-07 at 8 41 05 PM" src="https://user-images.githubusercontent.com/79861528/140653728-f77ecf3b-453a-4ccc-ad67-3f96b18856cd.png"><br> -->
+  <img width="722" alt="GP1" src="https://user-images.githubusercontent.com/79861528/141099966-91a65963-cd10-475d-9fe4-c6b5cbf217f4.png">
+
 </p>
 <p align="center">
-<img width="722" align="center" alt="AEP5" src="https://user-images.githubusercontent.com/79861528/140653808-5b3763b4-5a84-40ab-894c-24c5b7b45ec2.png"><br>
+<!-- <img width="722" align="center" alt="AEP5" src="https://user-images.githubusercontent.com/79861528/140653808-5b3763b4-5a84-40ab-894c-24c5b7b45ec2.png"><br> -->
+  <img width="718" alt="GP2" src="https://user-images.githubusercontent.com/79861528/141099915-c96fb5ff-6faf-4277-aec0-42578771dc64.png">
+
 </p>
 Figure 6:  Input(Blurred), Ground Truth and Predicted(Deblurred) images respectively for the CNN Model for Gaussian Blur.
 <br><br>
